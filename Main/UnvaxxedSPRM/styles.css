@@ -148,8 +148,8 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('images/hero.bg.jpg');
-    background-size: contain;
+                url('Images/hero.bg.jpg');
+    background-size: 100% auto;
     background-repeat: no-repeat; /* Ensures the background doesn't tile */
     background-position: center;
     display: flex;
@@ -787,7 +787,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('images/hero.bg.jpg');
+                url('Images/hero.bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
