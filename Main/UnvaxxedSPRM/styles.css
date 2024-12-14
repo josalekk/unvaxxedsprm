@@ -1,6 +1,6 @@
 :root {
 <<<<<<< HEAD
-    --primary-color: #FFD700;
+    --primary-color: #ff3e3e;
 =======
     --primary-color: ##d2f9f4;
 >>>>>>> parent of 9b1c04a (Update styles.css)
@@ -1424,7 +1424,7 @@ h2 {
 }
 
 .community h2 {
-    color: #FFD700;
+    color: #ff3e3e;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px rgba(255, 62, 62, 0.5);
@@ -1466,7 +1466,7 @@ h2 {
 }
 
 .social-button.telegram {
-    background: #0088cc;
+    background: #ff3e3e;
 }
 
 .social-button.discord {
