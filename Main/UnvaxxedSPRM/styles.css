@@ -1,9 +1,5 @@
 :root {
-<<<<<<< HEAD
-    --primary-color: #FFD700;
-=======
-    --primary-color: ##d2f9f4;
->>>>>>> parent of 9b1c04a (Update styles.css)
+    --primary-color: #ff3e3e;
     --secondary-color: #2a2a2a;
     --accent-color: #ffd700;
     --text-color: #ffffff;
@@ -1424,7 +1420,7 @@ h2 {
 }
 
 .community h2 {
-    color: #FFD700;
+    color: #ff3e3e;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px rgba(255, 62, 62, 0.5);
