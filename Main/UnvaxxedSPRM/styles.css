@@ -1,5 +1,5 @@
 :root {
-    --primary-color: ##d2f9f4;
+    --primary-color: ###66e5d4;
     --secondary-color: #2a2a2a;
     --accent-color: #ffd700;
     --text-color: #ffffff;
@@ -1420,7 +1420,7 @@ h2 {
 }
 
 .community h2 {
-    color: #FFD700;
+    color: ##66e5d4;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px rgba(255, 62, 62, 0.5);
