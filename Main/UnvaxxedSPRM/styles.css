@@ -950,6 +950,10 @@ body {
     font-weight: 700;
     color: var(--primary-color);
 }
+.logo img {
+    max-height: 50px; /* Adjust size as needed */
+    display: block;
+}
 
 .nav-links a {
     color: var(--text-color);
