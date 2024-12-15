@@ -949,6 +949,8 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
+    background:
+                url('Images/hero.bg.jpg');
 }
 .logo img {
     max-height: 50px; /* Adjust size as needed */
