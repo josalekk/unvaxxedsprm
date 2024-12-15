@@ -945,13 +945,6 @@ body {
     align-items: center;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  background-image: url('Main/UnvaxxedSPRM/Images/logo.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .nav-links a {
     color: var(--text-color);
