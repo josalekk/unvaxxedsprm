@@ -1638,12 +1638,12 @@ footer {
 }
 
 .capsule {
-    padding: 5px 10px;
+    padding: 2px 5px;
     border-radius: 15px;
     font-style: italic;
     text-transform: none;
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: #de9863;
+    color: #000;
     display: inline-block;
     animation: glow 2s infinite;
 }
@@ -1668,7 +1668,13 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
 }
-
+.meme {
+    max-width: 300px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the image */
+    border-radius: 15px; /* Optional: keep rounded edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: aesthetic */
+}
 .meme:hover {
     transform: scale(1.1);
 }
