@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging Image Paths</title>
+</head>
+<body>
+    <h1>Image Path Debugging</h1>
+    <p>If images are not loading, verify paths carefully:</p>
+
+    <h2>Example Image</h2>
+    <img src="Main/UnvaxxedSPRM/Images/meme1.jpg" alt="Meme 1" onerror="this.onerror=null; this.src='fallback.jpg';">
+    <p>Expected path: <code>Main/UnvaxxedSPRM/Images/meme1.jpg</code></p>
+
+    <h2>Debugging Tips</h2>
+    <ul>
+        <li>Ensure the file structure in your GitHub repository matches exactly the path specified in the <code>src</code> attribute.</li>
+        <li>GitHub Pages hosting is case-sensitive. Check for mismatched cases in folder and file names.</li>
+        <li>If using GitHub Pages, ensure that the images are pushed to the repository and that the branch hosting the site (e.g., <code>gh-pages</code>) includes the image files.</li>
+        <li>Use your browser's Developer Tools (F12) to inspect the network tab and verify if the images are being requested correctly or returning 404 errors.</li>
+        <li>If hosting through GitHub Pages, remember paths should be relative to the repository root unless a base URL is specified.</li>
+    </ul>
+
+    <h2>Example Network Debugging Script</h2>
+    <script>
+        window.onload = function() {
+            document.querySelectorAll('img').forEach(img => {
+                img.addEventListener('error', () => {
+                    console.error(`Image failed to load: ${img.src}`);
+                });
+            });
+        };
+    </script>
+</body>
+</html>
