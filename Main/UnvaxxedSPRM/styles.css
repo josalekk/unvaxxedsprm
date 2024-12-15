@@ -946,15 +946,11 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    background:
-                url('Images/hero.bg.jpg');
-}
-.logo img {
-    max-height: 50px; /* Adjust size as needed */
-    display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('Main/UnvaxxedSPRM/Images/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .nav-links a {
