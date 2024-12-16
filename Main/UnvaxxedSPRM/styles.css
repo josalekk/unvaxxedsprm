@@ -928,14 +928,16 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: rgba(26, 26, 26, 0.4);
+    background-color: rgba(26, 26, 26, 0.2);
     position: fixed;
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
     backdrop-filter: blur(5px);
 }
-
+.header.scrolled {
+    background-color: rgba(26, 26, 26, 0.2); /* Slightly less transparent */
+}
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1677,9 +1679,10 @@ footer {
 #large-meme {
     max-width: 600px; /* Specific size for this image */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Center the image */
+    margin: 20px auto; /* Center horizontally and add vertical spacing */
     border-radius: 15px; /* Optional: rounded corners */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Optional: enhance shadow */
+    display: block; /* Ensures block-level element for centering */
     transition: transform 0.3s ease, max-width 0.3s ease; /* Smooth scaling */
 }
 
