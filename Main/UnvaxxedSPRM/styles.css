@@ -1674,6 +1674,19 @@ footer {
     transform: scale(1.1);
 }
 
+#large-meme {
+    max-width: 600px; /* Specific size for this image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image */
+    border-radius: 15px; /* Optional: rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Optional: enhance shadow */
+    transition: transform 0.3s ease, max-width 0.3s ease; /* Smooth scaling */
+}
+
+#large-meme:hover {
+    transform: scale(1.15); /* Slight zoom on hover */
+}
+
 @keyframes glow {
     0% { text-shadow: 0 0 10px var(--primary-color); }
     50% { text-shadow: 0 0 20px var(--primary-color), 0 0 30px var(--accent-color); }
