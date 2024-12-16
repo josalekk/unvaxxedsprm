@@ -1645,6 +1645,7 @@ footer {
     display: inline-block;
     animation: glow 2s infinite;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
 }
 
 .capsule.alternate {
@@ -1653,6 +1654,7 @@ footer {
     animation: pulse 3s infinite;
     font-family: 'Bangers', sans-serif;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .capsule:hover {
