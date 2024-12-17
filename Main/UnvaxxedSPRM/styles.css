@@ -1662,7 +1662,17 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+}
 
+.video-section iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
 .meme {
     max-width: 100%;
     height: auto;
