@@ -929,7 +929,7 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: rgba(26, 26, 26, 0.2);
+    background-color: rgba(26, 26, 26, 0);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -937,7 +937,7 @@ body {
     backdrop-filter: blur(5px);
 }
 .header.scrolled {
-    background-color: rgba(26, 26, 26, 0.2); /* Slightly less transparent */
+    background-color: rgba(26, 26, 26, 0); /* Slightly less transparent */
 }
 .nav-container {
     max-width: 1200px;
