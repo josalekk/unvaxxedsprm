@@ -23,15 +23,6 @@ function copyContract() {
     });
 }
 
-// Header scroll effect
-window.addEventListener('scroll', () => {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 100) {
-        header.style.backgroundColor = 'rgba(26, 26, 26, 0.98)';
-    } else {
-        header.style.backgroundColor = 'rgba(26, 26, 26, 0.95)';
-    }
-});
 
 // Add animation on scroll
 const observerOptions = {
