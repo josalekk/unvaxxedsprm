@@ -934,7 +934,7 @@ body {
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
-    backdrop-filter: blur(5px);
+    
 }
 .header.scrolled {
     background-color: rgba(26, 26, 26, 0); /* Slightly less transparent */
