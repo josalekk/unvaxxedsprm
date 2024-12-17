@@ -1643,7 +1643,7 @@ footer {
     background-color: #FFD700; /* Gold for vitality and value */
     color: #000000; /* Black for strong contrast */
     display: inline-block;
-    animation: glow 2s infinite;
+    animation: pulse 3s infinite;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     letter-spacing: 3px;
 }
