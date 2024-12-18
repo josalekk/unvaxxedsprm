@@ -1727,3 +1727,58 @@ footer {
         opacity: 0.8;
     }
 }
+.detox-protocol {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 2rem 0;
+}
+
+.detox-protocol h2 {
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px var(--primary-color);
+}
+
+.disclaimer {
+    font-size: 1.1rem;
+    padding: 1rem;
+    background: rgba(255, 62, 62, 0.1);
+    border-left: 4px solid var(--accent-color);
+    margin-bottom: 1.5rem;
+    animation: pulse 3s infinite;
+}
+
+.detox-steps {
+    margin-top: 1.5rem;
+}
+
+.step-explanation {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: var(--text-color);
+}
+
+.references {
+    margin-top: 2rem;
+}
+
+.references h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.references a {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.references a:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 5px var(--primary-color);
+}
