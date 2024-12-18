@@ -1766,11 +1766,23 @@ footer {
 
 .references {
     margin-top: 2rem;
+    font-size: 0.9rem; /* Smaller font size */
+    color: var(--text-color);
+    line-height: 1.4;
 }
 
 .references h3 {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+}
+
+.references ul {
+    list-style: none;
+    padding: 0;
+}
+
+.references li {
+    margin-bottom: 1rem;
 }
 
 .references a {
