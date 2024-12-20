@@ -148,7 +148,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('Images/hero.bg.jpg');
+                url('https://sprm.meme/sprmland.png');
     background-size: 100% auto;
     background-repeat: no-repeat; /* Ensures the background doesn't tile */
     background-position: center;
@@ -787,7 +787,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('Images/hero.bg.jpg');
+                url('https://sprm.meme/sprmland.png');
     background-size: contain;
     background-position: center;
      background-repeat: no-repeat;
