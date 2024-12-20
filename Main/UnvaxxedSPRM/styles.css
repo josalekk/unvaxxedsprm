@@ -1750,7 +1750,7 @@ footer {
     background: rgba(255, 62, 62, 0.1);
     border-left: 4px solid var(--accent-color);
     margin-bottom: 1.5rem;
-    animation: pulse 3s infinite;
+    animation: glow 3s infinite;
 }
 
 .detox-steps {
