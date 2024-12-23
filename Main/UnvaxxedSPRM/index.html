@@ -94,14 +94,15 @@ window.Jupiter.init({
   strictTokenList: true,
   tokenList: [
     { address: "So11111111111111111111111111111111111111112", name: "Solana (SOL)" },
-    { address: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump", name: "$SPRM" }
+    { address: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump", name: "YourOutputTokenName" }
   ],
   formProps: {
-    fixedInputMint: "So11111111111111111111111111111111111111112", // SOL mint address
-    fixedOutputMint: true,
-    initialAmount: "1000000000", // Initial amount in lamports (1 SOL = 1,000,000,000 lamports)
+    fixedInputMint: "So11111111111111111111111111111111111111112", // Fix input token to SOL
+    fixedOutputMint: true, // Fix output token
+    initialAmount: "1000000000", // Set initial input amount to 1 SOL in lamports
+    initialInputMint: "So11111111111111111111111111111111111111112", // Explicitly set input to SOL
     initialOutputMint: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump",
-    initialSlippageBps: 5,
+    initialSlippageBps: 5, // Set slippage tolerance
   },
 });
 
