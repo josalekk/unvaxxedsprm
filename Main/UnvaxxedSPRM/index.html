@@ -15,6 +15,7 @@
     <meta property="og:image" content="https://sprm.meme/sprmland.png" />
     <meta property="og:url" content="https://sprm.meme/" />
     <meta property="og:type" content="website" />
+    <div id="integrated-terminal" style="width: 400px; height: 568px;"></div>
 </head>
 <body>
     <header class="header">
@@ -83,6 +84,26 @@
                             <i class="fas fa-copy"></i>
                         </button>
                     </div>
+                    <div id="integrated-terminal" style="width: 400px; height: 568px;">
+<script>
+
+window.Jupiter.init({
+  displayMode: "integrated",
+  integratedTargetId: "integrated-terminal",
+  endpoint: "https://broken-alpha-water.solana-mainnet.quiknode.pro/3005ec1890a1676de8084f1c95646cb15c9543c0",
+  strictTokenList: false,
+  formProps: {
+    fixedOutputMint: true,
+    swapMode: "ExactIn",
+    initialAmount: "1000000000",
+    initialOutputMint: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump",
+    initialSlippageBps: 5,
+  },
+});
+
+</script>
+
+</div>
                 </div>
             </div>
         </section>
