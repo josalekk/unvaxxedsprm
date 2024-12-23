@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Copy contract address functionality
 function copyContract() {
-    const contractAddress = 'Contracthere';
+    const contractAddress = 'Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump';
     navigator.clipboard.writeText(contractAddress).then(() => {
         const copyButton = document.querySelector('.copy-button');
         const originalIcon = copyButton.innerHTML;
