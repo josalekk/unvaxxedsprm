@@ -1523,6 +1523,14 @@ footer {
         grid-template-columns: 1fr; /* Stack content vertically */
         text-align: center; /* Ensure content is centered */
     }
+    @media (max-width: 768px) {
+    #integrated-terminal {
+        width: 90%; /* Adjust to 90% of the screen width */
+        height: auto; /* Let the height adapt to content */
+        max-width: 400px; /* Maintain a maximum width */
+        margin: 0 auto; /* Center the terminal */
+    }
+}
 
     .about-text, .contract-info {
         margin: 0 auto; /* Center the individual blocks */
