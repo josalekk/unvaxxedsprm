@@ -84,31 +84,31 @@
                             <i class="fas fa-copy"></i>
                         </button>
                     </div>
-                    <div id="integrated-terminal" style="width: 400px; height: 400px;">
-<script>
-
-window.Jupiter.init({
-  displayMode: "integrated",
-  integratedTargetId: "integrated-terminal",
-  endpoint: "https://broken-alpha-water.solana-mainnet.quiknode.pro/3005ec1890a1676de8084f1c95646cb15c9543c0",
-  strictTokenList: true,
-  tokenList: [
-    { address: "So11111111111111111111111111111111111111112", name: "Solana (SOL)" },
-    { address: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump", name: "YourOutputTokenName" }
-  ],
-  formProps: {
-    fixedInputMint: "So11111111111111111111111111111111111111112", // Fix input token to SOL
-    fixedOutputMint: true, // Fix output token
-    initialAmount: "1000000000", // Set initial input amount to 1 SOL in lamports
-    initialInputMint: "So11111111111111111111111111111111111111112", // Explicitly set input to SOL
-    initialOutputMint: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump",
-    initialSlippageBps: 5, // Set slippage tolerance
-  },
-});
-
-</script>
-
-</div>
+                  <section id="jupiter-terminal" class="jupiter-terminal-section">
+    <h2>Get your load of UNVAXXED $SPRM</h2>
+    <p>Use the integrated Jupiter terminal to easily aquire the word's most precious resource!</p>
+    <div id="integrated-terminal"></div>
+    <script>
+        window.Jupiter.init({
+            displayMode: "integrated",
+            integratedTargetId: "integrated-terminal",
+            endpoint: "https://broken-alpha-water.solana-mainnet.quiknode.pro/3005ec1890a1676de8084f1c95646cb15c9543c0",
+            strictTokenList: true,
+            tokenList: [
+                { address: "So11111111111111111111111111111111111111112", name: "Solana (SOL)" },
+                { address: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump", name: "YourOutputTokenName" }
+            ],
+            formProps: {
+                fixedInputMint: "So11111111111111111111111111111111111111112",
+                fixedOutputMint: true,
+                initialAmount: "1000000000",
+                initialInputMint: "So11111111111111111111111111111111111111112",
+                initialOutputMint: "Gf7yJgJwBJPh2tEyzx66keUXyexniUDP9RtyZrQbpump",
+                initialSlippageBps: 5,
+            },
+        });
+    </script>
+</section>
                 </div>
             </div>
         </section>
