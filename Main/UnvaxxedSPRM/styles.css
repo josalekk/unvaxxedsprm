@@ -1521,8 +1521,15 @@ footer {
     }
     
     .about-content {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Stack content vertically */
+        text-align: center; /* Ensure content is centered */
     }
+
+    .about-text, .contract-info {
+        margin: 0 auto; /* Center the individual blocks */
+        padding: 0 1rem; /* Add padding for better readability */
+    }
+}
     
     .cta-buttons {
         flex-direction: column;
