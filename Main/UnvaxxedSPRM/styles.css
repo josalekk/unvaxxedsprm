@@ -1518,30 +1518,11 @@ footer {
     
     .hero h1 {
         font-size: 3rem;
-@media (max-width: 768px) {
+    }
+    
     .about-content {
-        grid-template-columns: 1fr; /* Stack content vertically */
-        text-align: center; /* Ensure content is centered */
+        grid-template-columns: 1fr;
     }
-    @media (max-width: 768px) {
-    #integrated-terminal {
-        width: 90%; /* Adjust to 90% of the screen width */
-        height: auto; /* Let the height adapt to content */
-        max-width: 400px; /* Maintain a maximum width */
-        margin: 0 auto; /* Center the terminal */
-
-        .contract-info {
-        padding: 1rem;
-        width: 100%; /* Make it full width on smaller screens */
-    }
-    }
-}
-
-    .about-text, .contract-info {
-        margin: 0 auto; /* Center the individual blocks */
-        padding: 0 1rem; /* Add padding for better readability */
-    }
-}
     
     .cta-buttons {
         flex-direction: column;
@@ -1771,43 +1752,7 @@ footer {
     margin-bottom: 1.5rem;
     
 }
-/* Jupiter Terminal Section Styles */
-#jupiter-terminal {
-    padding: 3rem 2rem;
-    background: #1a1a1a; /* Match site theme */
-    color: #fff;
-    text-align: center;
-}
 
-#jupiter-terminal h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #ffd700; /* Gold for emphasis */
-}
-
-#jupiter-terminal p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-#integrated-terminal {
-    width: 100%;
-    max-width: 500px; /* Set a max width */
-    height: auto; /* Let it adjust dynamically */
-    margin: 0 auto; /* Center the terminal */
-    border: 1px solid #ffd700; /* Optional: Add a border */
-    border-radius: 10px; /* Optional: Rounded edges */
-    background: #000; /* Terminal background */
-}
-
-@media (max-width: 768px) {
-    #integrated-terminal {
-        width: 90%; /* Adjust to smaller screen size */
-    }
-}
-
-
-    
 .detox-steps {
     margin-top: 1.5rem;
 }
