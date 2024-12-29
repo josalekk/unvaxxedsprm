@@ -1529,6 +1529,11 @@ footer {
         height: auto; /* Let the height adapt to content */
         max-width: 400px; /* Maintain a maximum width */
         margin: 0 auto; /* Center the terminal */
+
+        .contract-info {
+        padding: 1rem;
+        width: 100%; /* Make it full width on smaller screens */
+    }
     }
 }
 
